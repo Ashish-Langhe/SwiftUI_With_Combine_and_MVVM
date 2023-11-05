@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - PlaceholderResponseModelElement
-struct PlaceholderResponseModelElement: Codable {
+struct PlaceholderResponseModelElement: Codable, Identifiable {
     let userID, id: Int
     let title, body: String
 
