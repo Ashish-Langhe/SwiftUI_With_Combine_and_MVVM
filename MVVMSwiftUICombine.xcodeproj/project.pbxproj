@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9016A9662AF74839005E5435 /* PlaceholderResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9016A9652AF74839005E5435 /* PlaceholderResponseModel.swift */; };
+		9016A9682AF74E09005E5435 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9016A9672AF74E09005E5435 /* ContentViewModel.swift */; };
 		906FECF62AF4F182001E0169 /* MVVMSwiftUICombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906FECF52AF4F182001E0169 /* MVVMSwiftUICombineApp.swift */; };
 		906FECF82AF4F182001E0169 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906FECF72AF4F182001E0169 /* ContentView.swift */; };
 		906FECFA2AF4F185001E0169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906FECF92AF4F185001E0169 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		9016A9652AF74839005E5435 /* PlaceholderResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderResponseModel.swift; sourceTree = "<group>"; };
+		9016A9672AF74E09005E5435 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		906FECF22AF4F182001E0169 /* MVVMSwiftUICombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMSwiftUICombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		906FECF52AF4F182001E0169 /* MVVMSwiftUICombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMSwiftUICombineApp.swift; sourceTree = "<group>"; };
 		906FECF72AF4F182001E0169 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		9016A9622AF746EC005E5435 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9016A9672AF74E09005E5435 /* ContentViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9016A9682AF74E09005E5435 /* ContentViewModel.swift in Sources */,
 				906FECF82AF4F182001E0169 /* ContentView.swift in Sources */,
 				9016A9662AF74839005E5435 /* PlaceholderResponseModel.swift in Sources */,
 				906FECF62AF4F182001E0169 /* MVVMSwiftUICombineApp.swift in Sources */,
