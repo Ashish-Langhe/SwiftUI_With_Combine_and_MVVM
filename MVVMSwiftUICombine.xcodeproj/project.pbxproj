@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9016A9662AF74839005E5435 /* PlaceholderResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9016A9652AF74839005E5435 /* PlaceholderResponseModel.swift */; };
 		906FECF62AF4F182001E0169 /* MVVMSwiftUICombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906FECF52AF4F182001E0169 /* MVVMSwiftUICombineApp.swift */; };
 		906FECF82AF4F182001E0169 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906FECF72AF4F182001E0169 /* ContentView.swift */; };
 		906FECFA2AF4F185001E0169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906FECF92AF4F185001E0169 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9016A9652AF74839005E5435 /* PlaceholderResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderResponseModel.swift; sourceTree = "<group>"; };
 		906FECF22AF4F182001E0169 /* MVVMSwiftUICombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMSwiftUICombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		906FECF52AF4F182001E0169 /* MVVMSwiftUICombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMSwiftUICombineApp.swift; sourceTree = "<group>"; };
 		906FECF72AF4F182001E0169 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9016A9612AF746E4005E5435 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				906FECF72AF4F182001E0169 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9016A9622AF746EC005E5435 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9016A9632AF746F5005E5435 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9016A9652AF74839005E5435 /* PlaceholderResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9016A9642AF746FD005E5435 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		906FECE92AF4F182001E0169 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +126,11 @@
 		906FECF42AF4F182001E0169 /* MVVMSwiftUICombine */ = {
 			isa = PBXGroup;
 			children = (
+				9016A9642AF746FD005E5435 /* Service */,
+				9016A9632AF746F5005E5435 /* Model */,
+				9016A9622AF746EC005E5435 /* ViewModel */,
+				9016A9612AF746E4005E5435 /* View */,
 				906FECF52AF4F182001E0169 /* MVVMSwiftUICombineApp.swift */,
-				906FECF72AF4F182001E0169 /* ContentView.swift */,
 				906FECF92AF4F185001E0169 /* Assets.xcassets */,
 				906FECFB2AF4F185001E0169 /* Preview Content */,
 			);
@@ -258,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				906FECF82AF4F182001E0169 /* ContentView.swift in Sources */,
+				9016A9662AF74839005E5435 /* PlaceholderResponseModel.swift in Sources */,
 				906FECF62AF4F182001E0169 /* MVVMSwiftUICombineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
