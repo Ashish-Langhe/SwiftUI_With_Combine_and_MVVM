@@ -8,15 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+   @ObservedObject var viewModel: ContentViewModel
+    
     var body: some View {
         NavigationView{
             List {
-                
+                listSection
             }
+            .navigationTitle("Content List")
         }
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(viewModel: ContentViewModel())
+}
+
+private extension ContentView {
+    var listSection: some View {
+        Section {
+            ForEach(viewModel.arrayItems) { item in
+                placeholderListRow(item: item)
+            }
+        }
+    }
 }
