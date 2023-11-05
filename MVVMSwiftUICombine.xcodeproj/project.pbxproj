@@ -17,6 +17,8 @@
 		906FED072AF4F186001E0169 /* MVVMSwiftUICombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906FED062AF4F186001E0169 /* MVVMSwiftUICombineTests.swift */; };
 		906FED112AF4F186001E0169 /* MVVMSwiftUICombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906FED102AF4F186001E0169 /* MVVMSwiftUICombineUITests.swift */; };
 		906FED132AF4F186001E0169 /* MVVMSwiftUICombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906FED122AF4F186001E0169 /* MVVMSwiftUICombineUITestsLaunchTests.swift */; };
+		9084E7722AF83C8C00621A94 /* CreatePlaceholderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9084E7712AF83C8C00621A94 /* CreatePlaceholderError.swift */; };
+		9084E7742AF83CB100621A94 /* ContentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9084E7732AF83CB100621A94 /* ContentService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		906FED0C2AF4F186001E0169 /* MVVMSwiftUICombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMSwiftUICombineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		906FED102AF4F186001E0169 /* MVVMSwiftUICombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMSwiftUICombineUITests.swift; sourceTree = "<group>"; };
 		906FED122AF4F186001E0169 /* MVVMSwiftUICombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMSwiftUICombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9084E7712AF83C8C00621A94 /* CreatePlaceholderError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlaceholderError.swift; sourceTree = "<group>"; };
+		9084E7732AF83CB100621A94 /* ContentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +106,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		9016A9642AF746FD005E5435 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
 		906FECE92AF4F182001E0169 = {
 			isa = PBXGroup;
 			children = (
@@ -132,7 +129,7 @@
 		906FECF42AF4F182001E0169 /* MVVMSwiftUICombine */ = {
 			isa = PBXGroup;
 			children = (
-				9016A9642AF746FD005E5435 /* Service */,
+				9084E7702AF83C6700621A94 /* Service */,
 				9016A9632AF746F5005E5435 /* Model */,
 				9016A9622AF746EC005E5435 /* ViewModel */,
 				9016A9612AF746E4005E5435 /* View */,
@@ -166,6 +163,15 @@
 				906FED122AF4F186001E0169 /* MVVMSwiftUICombineUITestsLaunchTests.swift */,
 			);
 			path = MVVMSwiftUICombineUITests;
+			sourceTree = "<group>";
+		};
+		9084E7702AF83C6700621A94 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9084E7712AF83C8C00621A94 /* CreatePlaceholderError.swift */,
+				9084E7732AF83CB100621A94 /* ContentService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,8 +306,10 @@
 			files = (
 				9016A9682AF74E09005E5435 /* ContentViewModel.swift in Sources */,
 				9016A96A2AF82898005E5435 /* placeholderListRow.swift in Sources */,
+				9084E7742AF83CB100621A94 /* ContentService.swift in Sources */,
 				906FECF82AF4F182001E0169 /* ContentView.swift in Sources */,
 				9016A9662AF74839005E5435 /* PlaceholderResponseModel.swift in Sources */,
+				9084E7722AF83C8C00621A94 /* CreatePlaceholderError.swift in Sources */,
 				906FECF62AF4F182001E0169 /* MVVMSwiftUICombineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
