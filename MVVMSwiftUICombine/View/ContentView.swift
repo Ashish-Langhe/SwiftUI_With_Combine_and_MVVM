@@ -22,14 +22,14 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView(viewModel: ContentViewModel())
+    ContentView(viewModel: ContentViewModel(service: ContentService()))
 }
 
 private extension ContentView {
     var listSection: some View {
         Section {
             ForEach(viewModel.arrayItems) { item in
-                placeholderListRow(item: item)
+                PlaceholderListRow(item: item)
             }
         }
     }
